@@ -7,7 +7,7 @@ write a function that returns the result of adding the number of accepted pears 
 function warehouse(pears, apples) {
   return pears + apples;
 }
-let pears = Number(prompt("How many pears do you want to add?"));
-let apples = Number(prompt("How many apples do you want to add?"));
+let pears = 5;
+let apples = 6;
 let result = warehouse(pears, apples);
-alert(result); 
+console.log(result); 

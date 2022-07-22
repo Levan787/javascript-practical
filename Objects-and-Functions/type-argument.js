@@ -6,7 +6,9 @@
             console.log(typeof args[i]);
         }
     }
-    console.log(calculateType(prompt("Enter a type of arguments")));
+
+    calculateType(('hello'))
+  
     //  Write a function for calculating the sum of arguments and output to console
 
 
@@ -23,7 +25,8 @@
     function calculateType(arg) {
         alert(typeof arg);
     }
-    alert(calculateType(prompt("Enter a number")));
+       calculateType(('hello'))
+
 
 */
         

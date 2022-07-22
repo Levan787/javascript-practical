@@ -7,8 +7,8 @@
 //The Matrix
 //Star Wars
 //The Shawshank Redemption
-var movies = ["The Matrix", "Star Wars", "The Shawshank Redemption"]; //create an array of movies
-for (var i = 0; i < movies.length; i++) { //iterate over the array
+let movies = ["The Matrix", "Star Wars", "The Shawshank Redemption"]; //create an array of movies
+for (let i = 0; i < movies.length; i++) { //iterate over the array
     console.log(movies[i]);    //print the name of each movie
 }
 

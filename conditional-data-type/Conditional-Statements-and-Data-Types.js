@@ -2,9 +2,9 @@
 //Perform addition of various types (string + boolean, string + number, number + boolean)
 
 
-var a = "5";
-var b = true;
-var c = 5;
+let a = "5";
+let b = true;
+let c = 5;
 
 
 
