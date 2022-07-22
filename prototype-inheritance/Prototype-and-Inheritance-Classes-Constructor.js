@@ -1,14 +1,14 @@
 //Create 2 objects: animal and cat, add move property to animal object, cat object must inherit move property from object animal. 
 
 
-var animal = {
+let animal = {
     move: function(){
         console.log("I'm moving");
     }
 }
 
 
-var cat = Object.create(animal);
+let cat = Object.create(animal);
 cat.move();
 
 

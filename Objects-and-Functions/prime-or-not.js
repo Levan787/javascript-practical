@@ -11,6 +11,6 @@ function isPrime(number) {
     }
     return 'This is prime number';
 }
-let  prime_number = prompt("Enter a prime number");
+let  prime_number = 7;
 let result = isPrime(prime_number);
-alert(result);
+console.log(result);
